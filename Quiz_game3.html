@@ -5,9 +5,9 @@
 <title>Quiz Game</title>
 <!--connecting css file with html-->
 
-<link href="z.css" rel="stylesheet">
+<link href="Quiz_game.css" rel="stylesheet">
 <!--connecting js file with html-->
-<script src="z.js"></script>
+<script src="Quiz_game.js"></script>
 
 </head>
 <body>
@@ -22,7 +22,10 @@
     <input type="radio" id="mc" name="QU1" value="Aubrey Drake Graham">Aubrey Drake Graham<br>
     <input type="radio" id="mc" name="QU1" value="Curtis James Jackson">Curtis James Jackson<br>
     <input type="radio" id="mc" name="QU1" value="Donald trump">Donald Trump<br>
-
+     <!--Building a div box related to another divs with same id so i can show the wright answer when the user answer is wrong  -->
+    <div id="after_click">
+        <p id="msg1"></p>
+    </div>
 
     <p> who is the singer of dance monkey</p>
 
@@ -30,19 +33,27 @@
     <input type="radio" id="mc" name="QU2" value="Madonna">Madonna<br>
     <input type="radio" id="mc" name="QU2" value="Tones and I">Tones and I<br>
      <input type="radio" id="mc" name="QU2" value="Goerge wassouf">Goerge wassouf<br>
+     <!--Building a div box related to another divs with same id so i can show the wright answer when the user answer is wrong  -->
 
-
+     <div id="after_click">
+        <p id="msg2"></p>
+    </div>
 
     <p>Which country is Ya Lili singer Balti from?</p>
 
     <input type="radio" id="mc" name="QU3" value="Tunisia">Tunisia<br>
     <input type="radio" id="mc" name="QU3" value="Italy">Italy<br>
     <input type="radio" id="mc" name="QU3" value="Algeria">Algeria<br>
+     <!--Building a div box related to another divs with same id so i can show the wright answer when the user answer is wrong  -->
+
+    <div id="after_click">
+        <p id="msg3"></p>
+    </div>
 </br>
     <input id="button" type="button" value="Done!!" onclick="check_3();">
 
 </form>
-    <!--Building a div box for messages-->
+    <!--Building a div box for messages to show score and congrat the efforts -->
 
 <div id="after_click">
     <p id="msg"></p>

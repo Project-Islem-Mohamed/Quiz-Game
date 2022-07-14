@@ -1,4 +1,4 @@
-//main function to check user answers//
+//main function to check user answers(Geographic Questions)//
 function check() {
   var question1 = document.getElementById("quiz").Q1.value;
   var question2 = document.getElementById("quiz").Q2.value;
@@ -8,12 +8,18 @@ function check() {
   if (question1 == "Vienne") {
     counter++;
   }
+  else {  document.getElementById("msg4").innerHTML = "the correct answer is : Vienne";}
+
   if (question2 == "Dublin") {
     counter++;
   }
+  else {  document.getElementById("msg5").innerHTML = "the correct answer is : Dublin";}
+
   if (question3 == "Katmandou") {
     counter++;
   }
+  else {  document.getElementById("msg6").innerHTML = "the correct answer is : Katmandou";}
+
 
   var messages = ["Good job", "Not bad", "You really need to do better"];
   var range;
@@ -53,12 +59,18 @@ function check_2() {
   if (question1 == "Soccer") {
     counter++;
   }
+  else {  document.getElementById("msg7").innerHTML = "the correct answer is : Vienne";}
+
   if (question2 == "Swimming") {
     counter++;
   }
+  else {  document.getElementById("msg8").innerHTML = "the correct answer is : Vienne";}
+
   if (question3 == "Italy") {
     counter++;
   }
+  else {  document.getElementById("msg9").innerHTML = "the correct answer is : Vienne";}
+
 
   var messages = ["too smart", "Not bad", "You really need to do better"];
   var range;
@@ -98,12 +110,21 @@ function check_3() {
   if (question1 == "Curtis James Jackson") {
     counter++;
   }
+
+  else {  document.getElementById("msg1").innerHTML = "the correct answer is : Curtis James Jackson";}
+
   if (question2 == "Tones and I") {
     counter++;
   }
+
+  else {  document.getElementById("msg2").innerHTML = "the correct answer is : Tones and I ";}
+
   if (question3 == "Tunisia") {
     counter++;
   }
+
+  else {  document.getElementById("msg3").innerHTML = "the correct answer is : Tunisia ";}
+
 
   var messages = ["Good job", "Not bad", "You really need to do better"];
   var range;
