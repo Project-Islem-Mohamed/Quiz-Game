@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Quiz Game</title>
+<!--connecting css file with html-->
+
+<link href="z.css" rel="stylesheet">
+<!--connecting js file with html-->
+<script src="z.js"></script>
+
+</head>
+<body>
+
+<h1> Test your Geographic knowledge</h1>
+    <!--Building a form for the Quiz Questions-->
+
+<form id="quiz" name="quiz">
+	
+	<p>What is the Capital city of Austria </p>
+	
+    <input type="radio" id="mc" name="Q1" value="Vienne">Vienne<br>
+    <input type="radio" id="mc" name="Q1" value="Tunis">Tunis<br>
+    <input type="radio" id="mc" name="Q1" value="Canada">Canada<br>
+
+	<p>What is the Capital city of Irlande</p>
+
+    <input type="radio" id="mc" name="Q2" value="Toronto">Toronto<br>
+    <input type="radio" id="mc" name="Q2" value="Johannesburg">Johannesburg<br>
+    <input type="radio" id="mc" name="Q2" value="Dublin">Dublin<br>
+
+
+
+    <p>What is the Capital city of Nepal</p>
+
+    <input type="radio" id="mc" name="Q3" value="Katmandou">Katmandou<br>
+    <input type="radio" id="mc" name="Q3" value="Athènes">Athènes<br>
+    <input type="radio" id="mc" name="Q3" value="New York">New York<br>
+</br>
+    <input id="button" type="button" value="Done!!" onclick="check();">
+
+</form>
+    <!--Building a div box for messages-->
+
+<div id="after_click">
+	<p id="msg"></p>
+<p id="correct_answers"></p>
+</div>
+
+<button onclick="myFunction()">Restart</button>
+
+
+</body>
+</html>
