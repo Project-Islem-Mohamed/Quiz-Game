@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Quiz Game</title>
+<!--connecting css file with html-->
+
+<link href="z.css" rel="stylesheet">
+<!--connecting js file with html-->
+<script src="z.js"></script>
+
+</head>
+<body>
+
+<h1> Test your sports knowledge</h1>
+    <!--Building a form for the Quiz Questions-->
+
+<form id="quiz2" name="quiz2">
+    
+    <p>What is generally considered to be the world's most popular sport? </p>
+    
+    <input type="radio" id="mc" name="k1" value="Baseball">Baseball<br>
+    <input type="radio" id="mc" name="k1" value="Soccer">Soccer<br>
+    <input type="radio" id="mc" name="k1" value="Basketball">Basketball<br>
+    <input type="radio" id="mc" name="k1" value="Fencing">Fencing<br>
+
+
+    <p>Which sport did Michael Phelps excel in?</p>
+
+    <input type="radio" id="mc" name="k2" value="tennis">tennis<br>
+    <input type="radio" id="mc" name="k2" value="Volleyball">Volleyball<br>
+    <input type="radio" id="mc" name="k2" value="Swimming">Swimming<br>
+     <input type="radio" id="mc" name="k2" value="Fencing">Fencing<br>
+
+
+
+    <p>Who was the soccer world cup winner 2006</p>
+
+    <input type="radio" id="mc" name="k3" value="France">France<br>
+    <input type="radio" id="mc" name="k3" value="Italy">Italy<br>
+    <input type="radio" id="mc" name="k3" value="Brasil">Brasil<br>
+</br>
+    <input id="button" type="button" value="Done!!" onclick="check_2();">
+
+</form>
+    <!--Building a div box for messages-->
+
+<div id="after_click">
+    <p id="msg"></p>
+<p id="correct_answers"></p>
+</div>
+<!--Building a button to get u back to zero point (restart) -->
+<button onclick="myFunction()">Restart</button>
+
+
+</body>
+</html>
