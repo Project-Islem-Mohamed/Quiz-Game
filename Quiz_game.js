@@ -5,17 +5,17 @@ function check() {
   var question3 = document.getElementById("quiz").Q3.value;
   var counter = 0;
 
-  if (question1 == "Vienne") {
+  if (question1 === "Vienne") {
     counter++;
   }
   else {  document.getElementById("msg4").innerHTML = "the correct answer is : Vienne";}
 
-  if (question2 == "Dublin") {
+  if (question2 === "Dublin") {
     counter++;
   }
   else {  document.getElementById("msg5").innerHTML = "the correct answer is : Dublin";}
 
-  if (question3 == "Katmandou") {
+  if (question3 === "Katmandou") {
     counter++;
   }
   else {  document.getElementById("msg6").innerHTML = "the correct answer is : Katmandou";}
@@ -56,17 +56,17 @@ function check_2() {
   var question3 = document.getElementById("quiz2").k3.value;
   var counter = 0;
 
-  if (question1 == "Soccer") {
+  if (question1 === "Soccer") {
     counter++;
   }
   else {  document.getElementById("msg7").innerHTML = "the correct answer is : Vienne";}
 
-  if (question2 == "Swimming") {
+  if (question2 === "Swimming") {
     counter++;
   }
   else {  document.getElementById("msg8").innerHTML = "the correct answer is : Vienne";}
 
-  if (question3 == "Italy") {
+  if (question3 === "Italy") {
     counter++;
   }
   else {  document.getElementById("msg9").innerHTML = "the correct answer is : Vienne";}
@@ -94,7 +94,7 @@ function check_2() {
     "you got " + counter + " correct.";
 }
 
-//reflesh page function//
+//refresh page function//
 
 function myFunction() {
   location.reload();
@@ -107,19 +107,19 @@ function check_3() {
   var question3 = document.getElementById("quiz3").QU3.value;
   var counter = 0;
 
-  if (question1 == "Curtis James Jackson") {
+  if (question1 === "Curtis James Jackson") {
     counter++;
   }
 
   else {  document.getElementById("msg1").innerHTML = "the correct answer is : Curtis James Jackson";}
 
-  if (question2 == "Tones and I") {
+  if (question2 === "Tones and I") {
     counter++;
   }
 
   else {  document.getElementById("msg2").innerHTML = "the correct answer is : Tones and I ";}
 
-  if (question3 == "Tunisia") {
+  if (question3 === "Tunisia") {
     counter++;
   }
 
@@ -148,7 +148,8 @@ function check_3() {
     "you got " + counter + " correct.";
 }
 
-///reflesh page function////
+///refresh page function////
+
 
 function myFunction() {
   location.reload();
