@@ -175,16 +175,19 @@ function checkG0(){
 	var question3 = document.getElementById("quiz11").Q33.value;
 	var counter = 0;
 
-	if (question1 == "Vienne11"){
+	if (question1 == "Ireland"){
 		counter++;
 }
+else {  document.getElementById("msg10").innerHTML = "the correct answer is : Ireland  ";}
 
-    if (question2 == "Dublin11") {
+    if (question2 == "New York City") {
     	counter++;
 }
-    if (question3 == "Katmandou11") {
+else {  document.getElementById("msg11").innerHTML = "the correct answer is :New York City  ";}
+    if (question3 == "Nepal") {
     	counter++
     }  
+    else {  document.getElementById("msg12").innerHTML = "the correct answer is :Nepal  ";}
 
 
     var messages = ["Good job", "Not bad", "You really need to do better"];
@@ -230,15 +233,22 @@ function check_22(){
   var question3 = document.getElementById("quiz22").k33.value;
   var counter = 0;
 
-  if (question1 == "Soccer22"){
+  if (question1 == "Chicago Bulls"){
       counter++;
 }
-  if (question2 == "Swimming22") {
+
+else {  document.getElementById("msg13").innerHTML = "the correct answer is :Chicago Bulls  ";}
+
+  if (question2 == "9players") {
       counter++;
 }
-  if (question3 == "Italy22") {
-      counter++
+else {  document.getElementById("msg14").innerHTML = "the correct answer is : 9 players ";}
+
+  if (question3 == "Cassius Clay") {
+      counter++;
   }  
+  else {  document.getElementById("msg15").innerHTML = "the correct answer is : Cassius Clay  ";}
+
 
   var messages = ["too smart", "Not bad", "You really need to do better"];
   var range;
@@ -280,23 +290,23 @@ function check_33() {
   var question3 = document.getElementById("quiz33").QU33.value;
   var counter = 0;
 
-  if (question1 === "Curtis James Jackson11") {
+  if (question1 === "Eminem") {
     counter++;
   }
 
-  else {  document.getElementById("msg1").innerHTML = "the correct answer is : Curtis James Jackson";}
+  else {  document.getElementById("msg16").innerHTML = "the correct answer is : Eminem ";}
 
-  if (question2 === "Tones and I11") {
+  if (question2 === " Bruno Mars") {
     counter++;
   }
 
-  else {  document.getElementById("msg2").innerHTML = "the correct answer is : Tones and I ";}
+  else {  document.getElementById("msg17").innerHTML = "the correct answer is :  Bruno Mars ";}
 
-  if (question3 === "Tunisia11") {
+  if (question3 === "Britney Spears") {
     counter++;
   }
 
-  else {  document.getElementById("msg3").innerHTML = "the correct answer is : Tunisia ";}
+  else {  document.getElementById("msg18").innerHTML = "the correct answer is : Britney Spears ";}
 
 
   var messages = ["Good job", "Not bad", "You really need to do better"];
