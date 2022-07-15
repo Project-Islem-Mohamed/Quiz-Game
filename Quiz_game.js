@@ -218,3 +218,55 @@ function checkG0(){
 function myFunction() {
     location.reload();
 }
+
+
+//main function to check user answers(Sport Questions " 2")////////////////////////////////
+
+function check_22(){
+
+
+  var question1 = document.getElementById("quiz22").k11.value;
+  var question2 = document.getElementById("quiz22").k22.value;
+  var question3 = document.getElementById("quiz22").k33.value;
+  var counter = 0;
+
+  if (question1 == "Soccer22"){
+      counter++;
+}
+  if (question2 == "Swimming22") {
+      counter++;
+}
+  if (question3 == "Italy22") {
+      counter++
+  }  
+
+  var messages = ["too smart", "Not bad", "You really need to do better"];
+  var range;
+
+   if (counter < 1){
+       range = 2;
+   }
+
+    if (counter > 0 && counter < 3){
+       range = 1;
+   }
+
+      if (counter > 2){
+       range = 0;
+       document.getElementById("m").innerHTML = "you can test yourself in next level";
+       document.getElementById("buttonlevel2").className = 'show'; 
+   }
+
+ document.getElementById("after_click").style.visibility="visible";
+
+
+ document.getElementById("msg").innerHTML = messages[range];
+ document.getElementById("correct_answers").innerHTML = "you got " + counter + " correct.";
+
+}
+
+//reflesh page function//
+
+function myFunction() {
+  location.reload();
+}
