@@ -34,6 +34,8 @@ function check() {
 
   if (counter > 2) {
     range = 0;
+    document.getElementById("m").innerHTML = "you can test yourself in next level";
+     document.getElementById("buttonlevel2").className = 'show'; 
   }
 
   document.getElementById("after_click").style.visibility = "visible";
@@ -85,6 +87,8 @@ function check_2() {
 
   if (counter > 2) {
     range = 0;
+    document.getElementById("m").innerHTML = "you can test yourself in next level";
+    document.getElementById("buttonlevel2").className = 'show'; 
   }
 
   document.getElementById("after_click").style.visibility = "visible";
@@ -139,6 +143,8 @@ function check_3() {
 
   if (counter > 2) {
     range = 0;
+    document.getElementById("m").innerHTML = "you can test yourself in next level";
+    document.getElementById("buttonlevel2").className = 'show'; 
   }
 
   document.getElementById("after_click").style.visibility = "visible";
