@@ -270,3 +270,62 @@ function check_22(){
 function myFunction() {
   location.reload();
 }
+
+
+
+//main function to check user answers(Music Questions " 2")////////////////////////////////
+function check_33() {
+  var question1 = document.getElementById("quiz33").QU11.value;
+  var question2 = document.getElementById("quiz33").QU22.value;
+  var question3 = document.getElementById("quiz33").QU33.value;
+  var counter = 0;
+
+  if (question1 === "Curtis James Jackson11") {
+    counter++;
+  }
+
+  else {  document.getElementById("msg1").innerHTML = "the correct answer is : Curtis James Jackson";}
+
+  if (question2 === "Tones and I11") {
+    counter++;
+  }
+
+  else {  document.getElementById("msg2").innerHTML = "the correct answer is : Tones and I ";}
+
+  if (question3 === "Tunisia11") {
+    counter++;
+  }
+
+  else {  document.getElementById("msg3").innerHTML = "the correct answer is : Tunisia ";}
+
+
+  var messages = ["Good job", "Not bad", "You really need to do better"];
+  var range;
+
+  if (counter < 1) {
+    range = 2;
+  }
+
+  if (counter > 0 && counter < 3) {
+    range = 1;
+  }
+
+  if (counter > 2) {
+    range = 0;
+    document.getElementById("m").innerHTML = "you can test yourself in next level";
+    document.getElementById("buttonlevel2").className = 'show'; 
+  }
+
+  document.getElementById("after_click").style.visibility = "visible";
+
+  document.getElementById("msg").innerHTML = messages[range];
+  document.getElementById("correct_answers").innerHTML =
+    "you got " + counter + " correct.";
+}
+
+///refresh page function////
+
+
+function myFunction() {
+  location.reload();
+}
