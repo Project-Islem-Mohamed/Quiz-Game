@@ -1,4 +1,10 @@
-#after_submit {
+#after_{
 	visibility: hidden;
 }
 
+.hidden {
+    display: none;
+}
+.show {
+   display: inline;
+}
