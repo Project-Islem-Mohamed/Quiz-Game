@@ -62,17 +62,17 @@ function check_2() {
   if (question1 === "Soccer") {
     counter++;
   }
-  else {  document.getElementById("msg7").innerHTML = "the correct answer is : Vienne";}
+  else {  document.getElementById("msg7").innerHTML = "the correct answer is : Soccer";}
 
   if (question2 === "Swimming") {
     counter++;
   }
-  else {  document.getElementById("msg8").innerHTML = "the correct answer is : Vienne";}
+  else {  document.getElementById("msg8").innerHTML = "the correct answer is : Swimming";}
 
   if (question3 === "Italy") {
     counter++;
   }
-  else {  document.getElementById("msg9").innerHTML = "the correct answer is : Vienne";}
+  else {  document.getElementById("msg9").innerHTML = "the correct answer is : Italy";}
 
 
   var messages = ["too smart", "Not bad", "You really need to do better"];

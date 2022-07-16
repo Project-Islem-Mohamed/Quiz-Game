@@ -4,27 +4,36 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Quiz Game</title>
+	<!--connecting css file with html-->
+	<link href="Quiz_game.css" rel="stylesheet">
 	<!--connecting js file with html-->
 <script src="Quiz_game.js"></script>
 </head>
 <body>
-	<h1>Choose a topic to test your General knowledge</h1>
-<form id="choose" name="choose">
-	
-	<p>Geographic</p>
-	
-          <input id="button1" type="button" value="let's play" onclick="location.href='Quiz_game1.html';">
+	<h1 >Choose a topic to test your General knowledge</h1>
 
-	<p>Sport</p>
+	<div class="a">
+
+<div class="a1">
+	<p class="a2">Geographic</p>
+	
+          <input class="bt" id="button1" type="button" value="Start" onclick="location.href='Quiz_game1.html';">
+		</div>
+
+<div class="a1">
+	<p class="a2">Sport</p>
 
    
-           <input id="button2" type="button" value="let's play" onclick="location.href='Quiz_game2.html';">
+           <input class="bt" id="button2" type="button" value="Start" onclick="location.href='Quiz_game2.html';">
+		</div>
+		   <div class="a1">
+    <p class="a2">Music</p>
 
-    <p>Music</p>
-
-            <input id="button3" type="button" value="let's play" onclick="location.href='Quiz_game3.html';">
-
-</form>
-
+            <input class="bt" id="button3" type="button" value="Start" onclick="location.href='Quiz_game3.html';">
+		</div>
+	</div>
+  <footer><b>
+	Our quiz games put the fun into learning. Your knowledge will be tested regarding a variety of subjects, including geography, music, and sports.</b></footer>
+	
 </body>
 </html>
